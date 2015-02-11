@@ -7,7 +7,7 @@ RUN curl -sL https://deb.nodesource.com/setup | bash -
 
 RUN apt-get update && \
     apt-get install -y build-essential nodejs \
-    git && \
+    git lftp && \
     rm -rf /var/lib/apt/lists/* # 20140918
 
 ADD assets/ /app/
