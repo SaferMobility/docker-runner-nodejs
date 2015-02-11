@@ -1,3 +1,5 @@
+[![Build Status](http://dockeri.co/image/safermobility/docker-runner-nodejs)](https://registry.hub.docker.com/u/safermobility/docker-runner-nodejs/)
+
 # Introduction
 
 A CI runner for NodeJS.
